@@ -57,16 +57,25 @@ function App() {
               </div>
             </div>
         </div>
-        <div className='PAGE_2 w-[100%] flex flex-row  border-black border-8 overflow-hidden '>
-          <div className='w-[70%] bg-[#1E1E1E] flex flex-col pt-[2vw] pl-[2vw] gap-[3vw]'>
-            <div><img className='w-[30vw]' src={mini}/></div>
-            <div className=' flex flex-row'><img className='z-[0] md:ml-[2vw] md:-mt-[7vw] absolute md:w-[13vw]' src={img4}/><img className='w-[60vw] z-[1]' src={foodie}/><img className=' absolute md:-mt-[8vw] md:ml-[46vw] md:w-[11vw]' src={img5}/></div> 
-            <div className='flex flex-row'><img className='md:w-[16vw] z-[1] ' src={artist}/><img className='absolute md:-mt-[3vw] md:ml-[15vw] w-[13vw]' src={img6}/></div> 
+        <div className='PAGE_2 w-[100%] md:h-[60vw] flex md:flex-row flex-col  border-black border-8 '>
+          <div className='w-[100%] md:h-[100%] md:w-[70%]  bg-[#1E1E1E] flex flex-col md:pt-[2vw] pt-[4vw] pl-[2vw] md:gap-[3vw] gap-[5vw]'>
+            <div><img className='md:w-[30vw] w-[70vw]' src={mini}/></div>
+            <div className=' flex flex-row'><img className='z-[0] ml-[1vw] md:ml-[2vw] -mt-[14vw] md:-mt-[7vw] absolute md:w-[13vw] w-[25vw]' src={img4}/><img className='md:w-[60vw] w-[100vw] z-[1]' src={foodie}/><img className=' absolute -mt-[14vw] md:-mt-[8vw] ml-[70vw] md:ml-[46vw] md:w-[11vw] w-[18vw]' src={img5}/></div> 
+            <div className='flex flex-row'><img className='md:w-[16vw] w-[35vw] z-[1] ' src={artist}/><img className='absolute -mt-[4.5vw] md:-mt-[3vw] ml-[32vw] md:ml-[15vw] md:w-[13vw] w-[30vw]' src={img6}/></div> 
             <div>hey</div>
-
+            <div>hey</div>
+            <div>hey</div>
+            <div>hey</div>
+            <div>hey</div>
+            
           </div>
-          <div className='w-[30%] bg-[#E9E757]'>
-
+          <div className='w-[100%] md:w-[30%] bg-[#E9E757]'>
+          <h1>hi</h1>
+          <h1>hi</h1>
+          <h1>hi</h1>
+          <h1>hi</h1>
+          <h1>hi</h1>
+          <h1>hi</h1>
           </div>
 
         </div>
