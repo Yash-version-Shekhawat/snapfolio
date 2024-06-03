@@ -23,14 +23,14 @@ function App() {
              <h1>RETRO</h1>
            </div>
         </div>
-        <div className='w-[100%] bg-[#bff960] flex flex-col justify-center items-center border-[#1E1E1E] border-8'>
+        <div className='w-[100%] bg-[#bff960] flex flex-col justify-center items-center border-[#1E1E1E] border-8 overflow-hidden'>
             <div className='md:w-[80%] w-[90%] flex md:mt-[81px] mt-[91px] flex-col text-[#1E1E1E] '>
               <h1 className='md:text-[3vw] text-[12vw] md:pt-6 pt-10 font-semibold'>WELCOME TO MY</h1>
               <div className='md:text-[3vw] text-[12vw] font-semibold'>
                 <img className='md:w-[19vw] w-[75vw] absolute md:mt-[2.1vw] mt-[8.5vw]' src={line1} alt="" />Portfolio
-                <img className='absolute md:w-[7vw] w-[22vw] md:-mt-[5.5vw] -mt-[19vw] md:ml-[19vw] ml-[73vw]' src={img1}/>
+                <img className='absolute md:w-[7vw] w-[18vw] md:-mt-[5.5vw] -mt-[17vw] md:ml-[19vw] ml-[73vw]' src={img1}/>
               </div>
-              <h1 className='md:text-[12vw] text-[16vw] -mt-[3vw] font-semibold text-[#AF2E2E] -ml-[4.8vw] md:ml-0'>SNAP
+              <h1 className='md:text-[12vw] text-[15.8vw] -mt-[3vw] font-semibold text-[#AF2E2E] -ml-[4.8vw] md:ml-0'>SNAP
                 <span className='text-[#1E1E1E]'>FOLIO 
                 <img className=' absolute md:w-[12vw] w-0 md:-mt-[16.5vw] -mt-[28.5vw] md:ml-[71.6vw] ml-[61.6vw]' src={img2}/>
                 </span>
@@ -44,6 +44,10 @@ function App() {
                   <button><img className='w-[9vw] md:w-[3.5vw]' src={link4}/></button>
                 </div>
                 <img className='w-[90vw] md:w-[30vw] -mt-[17.5vw] md:-mt-[15vw] ml-[0vw] md:ml-[16vw]' src={img3}/>
+                <div className='flex flex-col md:-mt-[0] -mt-[3vw]'>
+                  <img className='md:w-[22vw] w-[50vw]' src={designer}/>
+                  <img className='md:w-[22vw] w-[50vw] md:ml-[4vw] ml-[34vw] md:-mt-[0] -mt-[5vw]' src={developer}/>
+                </div>
               </div>
             </div>
             
