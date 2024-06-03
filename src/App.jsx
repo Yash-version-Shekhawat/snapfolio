@@ -11,6 +11,12 @@ import link3 from './assets/link_3.svg'
 import link4 from './assets/link_4.svg'
 import designer from './assets/Designer.svg'
 import developer from './assets/Developer.svg'
+import artist from './assets/Artist.svg'
+import foodie from './assets/Foodie.svg'
+import mini from './assets/Minimalist.svg'
+import img4 from './assets/img_4.svg'
+import img5 from './assets/img_5.svg'
+import img6 from './assets/img_6.svg'
 function App() {
   return (
     <div className='h-[100%] w-[100%] relative'>
@@ -23,7 +29,7 @@ function App() {
              <h1>RETRO</h1>
            </div>
         </div>
-        <div className='w-[100%] bg-[#bff960] flex flex-col justify-center items-center border-[#1E1E1E] border-8 overflow-hidden'>
+        <div className='PAGE_1 w-[100%] bg-[#bff960] flex flex-col justify-center items-center border-black border-8 overflow-hidden'>
             <div className='md:w-[80%] w-[90%] flex md:mt-[81px] mt-[91px] flex-col text-[#1E1E1E] '>
               <h1 className='md:text-[3vw] text-[12vw] md:pt-6 pt-10 font-semibold'>WELCOME TO MY</h1>
               <div className='md:text-[3vw] text-[12vw] font-semibold'>
@@ -36,8 +42,8 @@ function App() {
                 </span>
               </h1>
               <div className='flex md:flex-row flex-col-reverse'>
-                <img className='w-[4vw] md:w-[1.5vw] rotate-90 md:rotate-0 ml-[42vw] md:ml-0 -mt-[35vw] md:-mt-[0]' src={line2}/>
-                <div className='flex flex-row md:flex-col mt-[5.3vw] gap-[5vw] md:gap-[1.9vw] ml-[19vw] md:ml-[1vw] '>
+                <img className='-mt-[0] w-[0] md:w-[1.5vw] ml-0 ' src={line2}/>
+                <div className='flex flex-row md:flex-col mt-[5.3vw] gap-[9vw] md:gap-[1.9vw] ml-[13vw] md:ml-[1vw] pb-[12vw] md:pb-[0]'>
                   <button><img className='w-[9vw] md:w-[3.5vw] ' src={link1}/></button>
                   <button><img className='w-[9vw] md:w-[3.5vw]' src={link2}/></button>
                   <button><img className='w-[9vw] md:w-[3.5vw]' src={link3}/></button>
@@ -50,7 +56,19 @@ function App() {
                 </div>
               </div>
             </div>
-            
+        </div>
+        <div className='PAGE_2 w-[100%] flex flex-row  border-black border-8 overflow-hidden '>
+          <div className='w-[70%] bg-[#1E1E1E] flex flex-col pt-[2vw] pl-[2vw] gap-[3vw]'>
+            <div><img className='w-[30vw]' src={mini}/></div>
+            <div className=' flex flex-row'><img className='z-[0] md:ml-[2vw] md:-mt-[7vw] absolute md:w-[13vw]' src={img4}/><img className='w-[60vw] z-[1]' src={foodie}/><img className=' absolute md:-mt-[8vw] md:ml-[46vw] md:w-[11vw]' src={img5}/></div> 
+            <div className='flex flex-row'><img className='md:w-[16vw] z-[1] ' src={artist}/><img className='absolute md:-mt-[3vw] md:ml-[15vw] w-[13vw]' src={img6}/></div> 
+            <div>hey</div>
+
+          </div>
+          <div className='w-[30%] bg-[#E9E757]'>
+
+          </div>
+
         </div>
         </div>
   )
