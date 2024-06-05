@@ -88,8 +88,9 @@ function App() {
               <div className="path"></div>
             </div>    
           </div>
-          <div className='w-[100%] md:w-[30%] bg-[#E9E757]'>
-            <img className='' src={smart}/>
+          <div className='w-[100%] md:w-[30%] h-[40vw] md:h-[100%] bg-[#E9E757] flex md:flex-col px-[2vw] pt-[2vw] md:items-center'>
+            <img className='w-[30vw] h-[28vw] md:h-[18vw] md:w-[20vw] float-left mr-[1vw] md:mr-[0]' src={smart}/>
+            <h1 className='text-[2vw] md:text-[1vw]' >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum ad qui perferendis aut veritatis ab iusto, repudiandae earum saepe libero dolorum temporibus harum quisquam nulla reprehenderit necessitatibus perspiciatis placeat quanxanj isni nnjsn ini nin si ns.loreLorem, ipsum dolor sit amet consectetur adipisicing elit. Eum ad qui perferendis aut veritatis ab iusto, repudiandae earum saepe libero dolorum temporibus harum quisquam nulla reprehenderit necessitatibus perspiciatis placeat quanxanj isni nnjsn ini nin si ns.lore</h1>
           </div>
 
         </div>
