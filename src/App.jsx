@@ -18,6 +18,7 @@ import img4 from './assets/img_4.svg'
 import img5 from './assets/img_5.svg'
 import img6 from './assets/img_6.svg'
 import jour from './assets/journey.svg'
+import smart from './assets/smart.svg'
 import './App.css'
 function App() {
   return (
@@ -64,7 +65,7 @@ function App() {
             <div><img className='md:w-[30vw] w-[70vw]' src={mini}/></div>
             <div className=' flex flex-row'>
               <img className='z-[0] ml-[1vw] md:ml-[2vw] -mt-[14vw] md:-mt-[7vw] absolute md:w-[13vw] w-[25vw]' src={img4}/>
-              <img className='md:w-[60vw] w-[100vw] z-[1]' src={foodie}/>
+              <img className='md:w-[60vw] w-[91vw] z-[1] ' src={foodie}/>
               <img className=' absolute -mt-[14vw] md:-mt-[8vw] ml-[70vw] md:ml-[46vw] md:w-[11vw] w-[18vw]' src={img5}/>
             </div> 
             <div className='flex flex-row'>
@@ -76,7 +77,7 @@ function App() {
                 VSCO
               </button>
             </div>
-            <div><img className=' w-[25vw] md:w-[15vw] md:-mt-[0.5vw]' src={jour}/></div>
+            <div><img className=' w-[29vw] md:w-[15vw] md:-mt-[0.5vw]' src={jour}/></div>
             <div className='main flex items-center justify-center w-[100%] h-[60vw] md:h-[50%] mb-[10vw] md:mt-[2.5vw]'>
               <div className='pacman relative bg-transparent z-[1] ml-[2vw]'>
                 <div className='h-[0.8rem] w-[0.8rem] bg-[#1E1E1E] absolute z-[999] rounded-[2rem] -mt-[2rem] ml-[3.5rem] '></div>
@@ -88,12 +89,7 @@ function App() {
             </div>    
           </div>
           <div className='w-[100%] md:w-[30%] bg-[#E9E757]'>
-          <h1>hi</h1>
-          <h1>hi</h1>
-          <h1>hi</h1>
-          <h1>hi</h1>
-          <h1>hi</h1>
-          <h1>hi</h1>
+            <img className='' src={smart}/>
           </div>
 
         </div>
