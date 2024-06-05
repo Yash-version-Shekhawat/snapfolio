@@ -17,6 +17,8 @@ import mini from './assets/Minimalist.svg'
 import img4 from './assets/img_4.svg'
 import img5 from './assets/img_5.svg'
 import img6 from './assets/img_6.svg'
+import jour from './assets/journey.svg'
+import './App.css'
 function App() {
   return (
     <div className='h-[100%] w-[100%] relative'>
@@ -57,17 +59,33 @@ function App() {
               </div>
             </div>
         </div>
-        <div className='PAGE_2 w-[100%] md:h-[60vw] flex md:flex-row flex-col  border-black border-8 '>
+        <div className='PAGE_2 w-[100%] md:h-[65vw] flex md:flex-row flex-col  border-black border-8 '>
           <div className='w-[100%] md:h-[100%] md:w-[70%]  bg-[#1E1E1E] flex flex-col md:pt-[2vw] pt-[4vw] pl-[2vw] md:gap-[3vw] gap-[5vw]'>
             <div><img className='md:w-[30vw] w-[70vw]' src={mini}/></div>
-            <div className=' flex flex-row'><img className='z-[0] ml-[1vw] md:ml-[2vw] -mt-[14vw] md:-mt-[7vw] absolute md:w-[13vw] w-[25vw]' src={img4}/><img className='md:w-[60vw] w-[100vw] z-[1]' src={foodie}/><img className=' absolute -mt-[14vw] md:-mt-[8vw] ml-[70vw] md:ml-[46vw] md:w-[11vw] w-[18vw]' src={img5}/></div> 
-            <div className='flex flex-row'><img className='md:w-[16vw] w-[35vw] z-[1] ' src={artist}/><img className='absolute -mt-[4.5vw] md:-mt-[3vw] ml-[32vw] md:ml-[15vw] md:w-[13vw] w-[30vw]' src={img6}/></div> 
-            <div>hey</div>
-            <div>hey</div>
-            <div>hey</div>
-            <div>hey</div>
-            <div>hey</div>
-            
+            <div className=' flex flex-row'>
+              <img className='z-[0] ml-[1vw] md:ml-[2vw] -mt-[14vw] md:-mt-[7vw] absolute md:w-[13vw] w-[25vw]' src={img4}/>
+              <img className='md:w-[60vw] w-[100vw] z-[1]' src={foodie}/>
+              <img className=' absolute -mt-[14vw] md:-mt-[8vw] ml-[70vw] md:ml-[46vw] md:w-[11vw] w-[18vw]' src={img5}/>
+            </div> 
+            <div className='flex flex-row'>
+              <img className='md:w-[16vw] w-[35vw] z-[1] ' src={artist}/>
+              <img className='absolute -mt-[4.5vw] md:-mt-[3vw] ml-[32vw] md:ml-[15vw] md:w-[13vw] w-[30vw]' src={img6}/>
+            </div> 
+            <div className='mt-[10vw] md:mt-[1.5vw]'>
+              <button className='bg-[#E9E757] pl-[2vw] md:pl-[1vw] py-[1vw] md:py-[0.6vw] pr-[6vw] md:pr-[3vw] rounded-xl'>
+                VSCO
+              </button>
+            </div>
+            <div><img className=' w-[25vw] md:w-[15vw] md:-mt-[0.5vw]' src={jour}/></div>
+            <div className='main flex items-center justify-center w-[100%] h-[60vw] md:h-[50%] mb-[10vw] md:mt-[2.5vw]'>
+              <div className='pacman relative bg-transparent z-[1] ml-[2vw]'>
+                <div className='h-[0.8rem] w-[0.8rem] bg-[#1E1E1E] absolute z-[999] rounded-[2rem] -mt-[2rem] ml-[3.5rem] '></div>
+              </div>
+              <div className="path"></div>
+              <div className="path"></div>
+              <div className="path"></div>
+              <div className="path"></div>
+            </div>    
           </div>
           <div className='w-[100%] md:w-[30%] bg-[#E9E757]'>
           <h1>hi</h1>
