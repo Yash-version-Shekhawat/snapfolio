@@ -103,16 +103,41 @@ function App() {
         {/*PAGE-3*/}
         <div className='PAGE_3 w-[100%] h-[100%] md:h-[65vw] flex flex-col  border-black border-8 bg-[#61329D]'>
           <div className='w-[100%] h-[4vw] md:h-[3vw] bg-[#00000060] '><h1 className=' text-center text-[#fff] py-[1vw] text-[2vw] md:text-[1.2vw]'>TECHNOLOGIES USED :</h1></div>
-          <div className='w-[100%] flex justify-center h-[15vw] md:h-[10vw] bg-black '>
+          <div className='w-[100%] flex justify-center h-[12vw] md:h-[10vw] bg-black md:py-[1vw] py-[1vw]'>
                 <Marquee>
-                  <div className='text-[6vw] font-sans font-bold text-[#1E1E1E] pr-1 text-shadow-xl'>●</div>
-                  <div className='w-[7vw] h-[7vw] bg-[#1E1E1E]'></div>
-                  <div className='text-[6vw] font-sans font-bold text-[#1E1E1E] pr-1 text-shadow-xl'>●</div>
+                  <div className=' text-[4vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
+                  <div className='w-[9vw] md:w-[7vw] h-[9vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl'></div>
+                  <div className=' text-[4vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
+                  <div className='w-[9vw] md:w-[7vw] h-[9vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl'></div>
+                  <div className=' text-[4vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
+                  <div className='w-[9vw] md:w-[7vw] h-[9vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl'></div>
+                  <div className=' text-[4vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
+                  <div className='w-[9vw] md:w-[7vw] h-[9vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl'></div>
+                  <div className=' text-[4vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
+                  <div className='w-[9vw] md:w-[7vw] h-[9vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl'></div>
+                  <div className=' text-[4vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
+                  <div className='w-[9vw] md:w-[7vw] h-[9vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl'></div>
+                  <div className=' text-[4vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
+                  <div className='w-[9vw] md:w-[7vw] h-[9vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl'></div>
+                  <div className=' text-[4vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
+                  <div className='w-[9vw] md:w-[7vw] h-[9vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl'></div>
+                  <div className=' text-[4vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
+                  <div className='w-[9vw] md:w-[7vw] h-[9vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl'></div>
                 </Marquee>
               </div>
+              <h1>hi</h1>
+              <h1>hi</h1>
+              <h1>hi</h1>
+              <h1>hi</h1>
+              <h1>hi</h1>
+              <h1>hi</h1>
+              <h1>hi</h1>
+              <h1>hi</h1>
+              <h1>hi</h1>
+              <h1>hi</h1>
         </div>
           
-        </div>
+    </div>
   )
 }
 
