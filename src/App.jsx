@@ -19,6 +19,7 @@ import img5 from './assets/img_5.svg'
 import img6 from './assets/img_6.svg'
 import jour from './assets/journey.svg'
 import smart from './assets/smart.svg'
+import Marquee from 'react-fast-marquee'
 import './App.css'
 function App() {
   return (
@@ -33,33 +34,34 @@ function App() {
            </div>
         </div>
         <div className='PAGE_1 w-[100%] bg-[#bff960] flex flex-col justify-center items-center border-black border-8 overflow-hidden'>
-            <div className='md:w-[80%] w-[90%] flex md:mt-[81px] mt-[91px] flex-col text-[#1E1E1E] '>
-              <h1 className='md:text-[3vw] text-[12vw] md:pt-6 pt-10 font-semibold'>WELCOME TO MY</h1>
-              <div className='md:text-[3vw] text-[12vw] font-semibold'>
-                <img className='md:w-[19vw] w-[75vw] absolute md:mt-[2.1vw] mt-[8.5vw]' src={line1} alt="" />Portfolio
-                <img className='absolute md:w-[7vw] w-[18vw] md:-mt-[5.5vw] -mt-[17vw] md:ml-[19vw] ml-[73vw]' src={img1}/>
+            <div className='md:w-[80%] w-[90%] flex md:mt-[81px] mt-[80px] flex-col text-[#1E1E1E] '>
+              <h1 className='md:text-[3vw] text-[10vw] md:pt-6 pt-10 font-semibold'>WELCOME TO MY</h1>
+              <div className='md:text-[3vw] text-[10vw] font-semibold'>
+                <img className='md:w-[19vw] w-[65vw] absolute md:mt-[2.1vw] mt-[7vw]' src={line1} alt="" />Portfolio
+                <img className='absolute md:w-[7vw] w-[18vw] md:-mt-[5.5vw] -mt-[16vw] md:ml-[19vw] ml-[65vw]' src={img1}/>
               </div>
-              <h1 className='md:text-[12vw] text-[15.8vw] -mt-[3vw] font-semibold text-[#AF2E2E] -ml-[4.8vw] md:ml-0'>SNAP
-                <span className='text-[#1E1E1E]'>FOLIO 
+              <h1 className=' text-center md:text-left md:text-[12vw] text-[15vw] -mt-[3vw] font-bold text-[#AF2E2E] -ml-[2.8vw] md:ml-0'>SNAP
+                <span className='text-[#1E1E1E] font-bold'>FOLIO 
                 <img className=' absolute md:w-[12vw] w-0 md:-mt-[16.5vw] -mt-[28.5vw] md:ml-[71.6vw] ml-[61.6vw]' src={img2}/>
                 </span>
               </h1>
               <div className='flex md:flex-row flex-col-reverse'>
                 <img className='-mt-[0] w-[0] md:w-[1.5vw] ml-0 ' src={line2}/>
-                <div className='flex flex-row md:flex-col mt-[5.3vw] gap-[9vw] md:gap-[1.9vw] ml-[13vw] md:ml-[1vw] pb-[12vw] md:pb-[0]'>
-                  <button><img className='w-[9vw] md:w-[3.5vw] ' src={link1}/></button>
-                  <button><img className='w-[9vw] md:w-[3.5vw]' src={link2}/></button>
-                  <button><img className='w-[9vw] md:w-[3.5vw]' src={link3}/></button>
-                  <button><img className='w-[9vw] md:w-[3.5vw]' src={link4}/></button>
+                <div className='flex flex-row md:flex-col mt-[5vw] gap-[9vw] md:gap-[1.9vw] ml-[12vw] md:ml-[1vw] pb-[8vw] md:pb-[0]'>
+                  <button><img className='w-[8vw] md:w-[3.5vw] ' src={link1}/></button>
+                  <button><img className='w-[8vw] md:w-[3.5vw]' src={link2}/></button>
+                  <button><img className='w-[8vw] md:w-[3.5vw]' src={link3}/></button>
+                  <button><img className='w-[8vw] md:w-[3.5vw]' src={link4}/></button>
                 </div>
-                <img className='w-[90vw] md:w-[30vw] -mt-[17.5vw] md:-mt-[15vw] ml-[0vw] md:ml-[16vw]' src={img3}/>
+                <img className='w-[65vw] md:w-[30vw] -mt-[17.5vw] md:-mt-[15vw] ml-[5vw] md:ml-[16vw]' src={img3}/>
                 <div className='flex flex-col md:-mt-[0] -mt-[3vw]'>
-                  <img className='md:w-[22vw] w-[50vw]' src={designer}/>
-                  <img className='md:w-[22vw] w-[50vw] md:ml-[4vw] ml-[34vw] md:-mt-[0] -mt-[5vw]' src={developer}/>
+                  <img className='md:w-[22vw] w-[40vw] ml-[4vw] md:ml-[0] ' src={designer}/>
+                  <img className='md:w-[22vw] w-[40vw] md:ml-[4vw] ml-[40vw] md:-mt-[0] -mt-[5vw]' src={developer}/>
                 </div>
               </div>
             </div>
         </div>
+        {/*PAGE-2*/}
         <div className='PAGE_2 w-[100%] md:h-[65vw] flex md:flex-row flex-col  border-black border-8 '>
           <div className='w-[100%] md:h-[100%] md:w-[70%]  bg-[#1E1E1E] flex flex-col md:pt-[2vw] pt-[4vw] pl-[2vw] md:gap-[3vw] gap-[5vw]'>
             <div><img className='md:w-[30vw] w-[70vw]' src={mini}/></div>
@@ -78,7 +80,7 @@ function App() {
               </button>
             </div>
             <div><img className=' w-[29vw] md:w-[15vw] md:-mt-[0.5vw]' src={jour}/></div>
-            <div className='main flex items-center justify-center w-[100%] h-[60vw] md:h-[50%] mb-[10vw] md:mt-[2.5vw] overflow-hidden'>
+            <div className='main flex items-center justify-center w-[100%] h-[60vw] md:h-[50%] mb-[10vw] md:mt-[2.5vw] overflow-x-hidden'>
               <div className='pacman relative bg-transparent z-[1] ml-[2vw]'>
                 <div className='h-[0.8rem] w-[0.8rem] bg-[#1E1E1E] absolute z-[999] rounded-[2rem] -mt-[2rem] ml-[3.5rem] '></div>
               </div>
@@ -98,6 +100,18 @@ function App() {
           </div>
 
         </div>
+        {/*PAGE-3*/}
+        <div className='PAGE_3 w-[100%] h-[100%] md:h-[65vw] flex flex-col  border-black border-8 bg-[#61329D]'>
+          <div className='w-[100%] h-[4vw] md:h-[3vw] bg-[#00000060] '><h1 className=' text-center text-[#fff] py-[1vw] text-[2vw] md:text-[1.2vw]'>TECHNOLOGIES USED :</h1></div>
+          <div className='w-[100%] flex justify-center h-[15vw] md:h-[10vw] bg-black '>
+                <Marquee>
+                  <div className='text-[6vw] font-sans font-bold text-[#1E1E1E] pr-1 text-shadow-xl'>●</div>
+                  <div className='w-[7vw] h-[7vw] bg-[#1E1E1E]'></div>
+                  <div className='text-[6vw] font-sans font-bold text-[#1E1E1E] pr-1 text-shadow-xl'>●</div>
+                </Marquee>
+              </div>
+        </div>
+          
         </div>
   )
 }
