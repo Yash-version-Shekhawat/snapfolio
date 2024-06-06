@@ -34,7 +34,7 @@ function App() {
            </div>
         </div>
         <div className='PAGE_1 w-[100%] bg-[#bff960] flex flex-col justify-center items-center border-black border-8 overflow-hidden'>
-            <div className='md:w-[80%] w-[90%] flex md:mt-[81px] mt-[80px] flex-col text-[#1E1E1E] '>
+            <div className='md:w-[80%] w-[90%] flex md:mt-[81px] mt-[69px] flex-col text-[#1E1E1E] '>
               <h1 className='md:text-[3vw] text-[10vw] md:pt-6 pt-10 font-semibold'>WELCOME TO MY</h1>
               <div className='md:text-[3vw] text-[10vw] font-semibold'>
                 <img className='md:w-[19vw] w-[65vw] absolute md:mt-[2.1vw] mt-[7vw]' src={line1} alt="" />Portfolio
