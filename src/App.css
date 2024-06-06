@@ -9,7 +9,7 @@
 
 .pacman::before, .pacman::after{
   position: absolute;
-  top: -45px;
+  top: -35px;
   display: block;
   border-radius: 50%;
   content: "";
@@ -18,13 +18,13 @@
 }
 .pacman::before{
   animation: chunk-top 0.5s ease infinite;
-  border: 45px solid #E9E757;
+  border: 35px solid #E9E757;
   border-left-color: transparent;
   border-bottom-color: transparent;
 }
 .pacman::after{
   animation: chunk-bottom 0.5s ease infinite;
-  border: 45px solid #E9E757;
+  border: 35px solid #E9E757;
   border-right-color: transparent;
   border-top-color: transparent;
 }

@@ -82,7 +82,7 @@ function App() {
             <div><img className=' w-[29vw] md:w-[15vw] md:-mt-[0.5vw]' src={jour}/></div>
             <div className='main flex items-center justify-center w-[100%] h-[60vw] md:h-[50%] mb-[10vw] md:mt-[2.5vw] overflow-x-hidden'>
               <div className='pacman relative bg-transparent z-[1] ml-[2vw]'>
-                <div className='h-[0.8rem] w-[0.8rem] bg-[#1E1E1E] absolute z-[999] rounded-[2rem] -mt-[2rem] ml-[3.5rem] '></div>
+                <div className='h-[0.7rem] w-[0.7rem] bg-[#1E1E1E] absolute z-[999] rounded-[2rem] -mt-[1.5rem] ml-[2.5rem] '></div>
               </div>
               <div className="path"></div>
               <div className="path"></div>
