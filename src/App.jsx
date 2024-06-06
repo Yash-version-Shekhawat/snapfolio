@@ -19,6 +19,18 @@ import img5 from './assets/img_5.svg'
 import img6 from './assets/img_6.svg'
 import jour from './assets/journey.svg'
 import smart from './assets/smart.svg'
+import cpp from './assets/cplusplus-colored.svg'
+import boot from './assets/bootstrap-colored.svg'
+import figma from './assets/figma-colored.svg'
+import py from './assets/python-colored.svg'
+import sql from './assets/mysql-colored.svg'
+import cs from './assets/css3-colored.svg'
+import ht from './assets/html5-colored.svg'
+import exp from './assets/express-colored.svg'
+import fram from './assets/framer-colored.svg'
+import jss from './assets/javascript-colored.svg'
+import rea from './assets/react-colored.svg'
+import tail from './assets/tailwindcss-colored.svg'
 import Marquee from 'react-fast-marquee'
 import './App.css'
 function App() {
@@ -33,6 +45,7 @@ function App() {
              <h1>RETRO</h1>
            </div>
         </div>
+        {/*----------------------------------------------------PAGE-1-----------------------------------------------------------*/}
         <div className='PAGE_1 w-[100%] bg-[#bff960] flex flex-col justify-center items-center border-black border-8 overflow-hidden'>
             <div className='md:w-[80%] w-[90%] flex md:mt-[81px] mt-[69px] flex-col text-[#1E1E1E] '>
               <h1 className='md:text-[3vw] text-[10vw] md:pt-6 pt-10 font-semibold'>WELCOME TO MY</h1>
@@ -61,7 +74,7 @@ function App() {
               </div>
             </div>
         </div>
-        {/*PAGE-2*/}
+        {/*----------------------------------------------------PAGE-2-----------------------------------------------------------*/}
         <div className='PAGE_2 w-[100%] md:h-[65vw] flex md:flex-row flex-col  border-black border-8 '>
           <div className='w-[100%] md:h-[100%] md:w-[70%]  bg-[#1E1E1E] flex flex-col md:pt-[2vw] pt-[4vw] pl-[2vw] md:gap-[3vw] gap-[5vw]'>
             <div><img className='md:w-[30vw] w-[70vw]' src={mini}/></div>
@@ -100,29 +113,33 @@ function App() {
           </div>
 
         </div>
-        {/*PAGE-3*/}
+        {/*----------------------------------------------------PAGE-3-----------------------------------------------------------*/}
         <div className='PAGE_3 w-[100%] h-[100%] md:h-[65vw] flex flex-col  border-black border-8 bg-[#61329D]'>
           <div className='w-[100%] h-[5vw] md:h-[3vw] bg-[#00000060] '><h1 className=' text-center text-[#fff] py-[1vw] text-[3vw] md:text-[1.2vw]'>TECHNOLOGIES USED :</h1></div>
           <div className='w-[100%] flex justify-center h-[16vw] md:h-[10vw] bg-black md:py-[1vw] py-[1vw]'>
                 <Marquee>
                   <div className=' text-[6vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
-                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl'></div>
+                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={cpp}/></div>
                   <div className=' text-[6vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
-                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl'></div>
+                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={figma}/></div>
                   <div className=' text-[6vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
-                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl'></div>
+                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={fram}/></div>
                   <div className=' text-[6vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
-                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl'></div>
+                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={sql}/></div>
                   <div className=' text-[6vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
-                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl'></div>
+                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={rea}/></div>
                   <div className=' text-[6vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
-                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl'></div>
+                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={cs}/></div>
                   <div className=' text-[6vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
-                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl'></div>
+                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={ht}/></div>
                   <div className=' text-[6vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
-                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl'></div>
+                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={boot}/></div>
                   <div className=' text-[6vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
-                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl'></div>
+                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={exp}/></div>
+                  <div className=' text-[6vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
+                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={py}/></div>
+                  <div className=' text-[6vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
+                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={tail}/></div>
                 </Marquee>
               </div>
               <h1>hi</h1>
