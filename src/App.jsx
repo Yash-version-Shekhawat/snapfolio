@@ -24,19 +24,20 @@ import img5 from './assets/img_5.svg'
 import img6 from './assets/img_6.svg'
 import jour from './assets/journey.svg'
 import smart from './assets/smart.svg'
+import vsco from './assets/linking.png'
  {/*-----------PAGE-3-----------*/}
-import cpp from './assets/cplusplus-colored.svg'
-import boot from './assets/bootstrap-colored.svg'
-import figma from './assets/figma-colored.svg'
-import py from './assets/python-colored.svg'
-import sql from './assets/mysql-colored.svg'
-import cs from './assets/css3-colored.svg'
-import ht from './assets/html5-colored.svg'
-import exp from './assets/express-colored.svg'
-import fram from './assets/framer-colored.svg'
-import jss from './assets/javascript-colored.svg'
-import rea from './assets/react-colored.svg'
-import tail from './assets/tailwindcss-colored.svg'
+import cpp from './assets/c-.png'
+import boot from './assets/bootstrap.png'
+import figma from './assets/figma.png'
+import py from './assets/python.png'
+import sql from './assets/mysql.png'
+import cs from './assets/css.png'
+import ht from './assets/html.png'
+import exp from './assets/express.png'
+import fram from './assets/flutter.png'
+import jss from './assets/js.png'
+import rea from './assets/atom.png'
+import tail from './assets/tailwindcss.png'
 import img7 from './assets/img_7.svg'
 import img8 from './assets/img_8.svg'
 import img9 from './assets/img_9.svg'
@@ -45,7 +46,7 @@ import line_2 from './assets/Line_2.svg'
 function App() {
   return (
     <div className='h-[100%] w-[100%] relative'>
-        <div className=' NAVBAR flex justify-center z-999 absolute w-full md:pt-8 pt-14'>   
+        <div className=' NAVBAR flex justify-center z-999 absolute w-full pt-8 md:pt-11'>   
            <div className='navbar h-[50px] md:w-[80%] w-[90%] bg-[#1E1E1E] text-white flex items-center justify-center md:gap-[9vw] gap-[5vw] rounded-2xl px-2 py-1 md:text-[1.5vw] text-[3.2vw]'>
              <h1>INDEX</h1>
              <h1 className=' '>ABOUT</h1>
@@ -55,8 +56,8 @@ function App() {
            </div>
         </div>
         {/*----------------------------------------------------PAGE-1-----------------------------------------------------------*/}
-        <div className='PAGE_1 w-[100%] bg-[#bff960] flex flex-col justify-center items-center border-black border-8 overflow-hidden'>
-            <div className='md:w-[80%] w-[90%] flex md:mt-[81px] mt-[69px] flex-col text-[#1E1E1E] '>
+        <div className='PAGE_1 w-[100%] md:h-[65vw] bg-[#bff960] flex flex-col justify-center items-center border-black border-8 overflow-hidden'>
+            <div className='md:w-[80%] w-[90%] flex md:mt-[150px] mt-[45px] flex-col text-[#1E1E1E] '>
               <h1 className='md:text-[3vw] text-[10vw] md:pt-6 pt-10 font-semibold'>WELCOME TO MY</h1>
               <div className='md:text-[3vw] text-[10vw] font-semibold'>
                 <img className='md:w-[19vw] w-[65vw] absolute md:mt-[2.1vw] mt-[7vw]' src={line1} alt="" />Portfolio
@@ -68,14 +69,14 @@ function App() {
                 </span>
               </h1>
               <div className='flex md:flex-row flex-col-reverse'>
-                <img className='-mt-[0] w-[0] md:w-[1.5vw] ml-0 ' src={line2}/>
-                <div className='flex flex-row md:flex-col mt-[5vw] gap-[9vw] md:gap-[1.9vw] ml-[12vw] md:ml-[1vw] pb-[8vw] md:pb-[0]'>
+                <img className='-mt-[0] w-[0] md:w-[1.5vw] ml-0 md:mb-[7vw] ' src={line2}/>
+                <div className='flex flex-row md:flex-col mt-[5vw] gap-[9vw] md:gap-[1.9vw] ml-[12vw] md:ml-[1vw] pb-[5vw] md:pb-[0]'>
                   <button><img className='w-[8vw] md:w-[3.5vw] ' src={link1}/></button>
                   <button><img className='w-[8vw] md:w-[3.5vw]' src={link2}/></button>
                   <button><img className='w-[8vw] md:w-[3.5vw]' src={link3}/></button>
                   <button><img className='w-[8vw] md:w-[3.5vw]' src={link4}/></button>
                 </div>
-                <img className='w-[65vw] md:w-[30vw] -mt-[17.5vw] md:-mt-[15vw] ml-[5vw] md:ml-[16vw]' src={img3}/>
+                <img className='w-[65vw] md:w-[33vw] -mt-[17.5vw] md:-mt-[19vw] ml-[5vw] md:ml-[13vw]' src={img3}/>
                 <div className='flex flex-col md:-mt-[0] -mt-[3vw]'>
                   <img className='md:w-[22vw] w-[40vw] ml-[4vw] md:ml-[0] ' src={designer}/>
                   <img className='md:w-[22vw] w-[40vw] md:ml-[4vw] ml-[40vw] md:-mt-[0] -mt-[5vw]' src={developer}/>
@@ -97,8 +98,9 @@ function App() {
               <img className='absolute -mt-[4.5vw] md:-mt-[3vw] ml-[32vw] md:ml-[15vw] md:w-[13vw] w-[30vw]' src={img6}/>
             </div> 
             <div className='mt-[10vw] md:mt-[1.5vw]'>
-              <button className='bg-[#E9E757] pl-[2vw] md:pl-[1vw] py-[1vw] md:py-[0.6vw] pr-[6vw] md:pr-[3vw] rounded-xl'>
+              <button className='bg-[#E9E757] pl-[2vw] md:pl-[1vw] py-[1vw] md:py-[0.6vw] pr-[3vw] md:pr-[1vw] rounded-xl flex items-center'>
                 VSCO
+                <img className='w-[4vw] md:w-[1.2vw] ml-[2vw] md:ml-[0.5vw] mb-[0.7vw] md:mb-[0.2vw]' src={vsco}/>
               </button>
             </div>
             <div><img className=' w-[29vw] md:w-[15vw] md:-mt-[0.5vw]' src={jour}/></div>
@@ -127,30 +129,30 @@ function App() {
           <div className='w-[100%] h-[10vw] md:h-[3vw] bg-[#00000060] '><h1 className=' text-center text-[#fff] py-[2vw] md:py-[1vw] text-[4vw] md:text-[1.2vw]'>TECHNOLOGIES USED :</h1></div>
           <div className='w-[100%] flex justify-center h-[32vw] md:h-[10vw] bg-black md:py-[1vw] py-[1vw]'>
                 <Marquee>
-                  <div className=' text-[6vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
-                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={cpp}/></div>
-                  <div className=' text-[6vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
-                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={figma}/></div>
-                  <div className=' text-[6vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
-                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={fram}/></div>
-                  <div className=' text-[6vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
-                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={sql}/></div>
-                  <div className=' text-[6vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
-                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={rea}/></div>
-                  <div className=' text-[6vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
-                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={cs}/></div>
-                  <div className=' text-[6vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
-                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={ht}/></div>
-                  <div className=' text-[6vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
-                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={boot}/></div>
-                  <div className=' text-[6vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
-                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={exp}/></div>
-                  <div className=' text-[6vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
-                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={py}/></div>
-                  <div className=' text-[6vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
-                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={tail}/></div>
-                  <div className=' text-[6vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
-                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={jss}/></div>
+                  <div className=' text-[8vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
+                  <div className='w-[20vw] md:w-[7vw] h-[20vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[12vw] md:w-[5vw] h-[12vw] md:h-[5vw]' src={cpp}/></div>
+                  <div className=' text-[8vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
+                  <div className='w-[20vw] md:w-[7vw] h-[20vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[12vw] md:w-[5vw] h-[12vw] md:h-[5vw]' src={figma}/></div>
+                  <div className=' text-[8vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
+                  <div className='w-[20vw] md:w-[7vw] h-[20vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[12vw] md:w-[5vw] h-[12vw] md:h-[5vw]' src={fram}/></div>
+                  <div className=' text-[8vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
+                  <div className='w-[20vw] md:w-[7vw] h-[20vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[12vw] md:w-[5vw] h-[12vw] md:h-[5vw]' src={sql}/></div>
+                  <div className=' text-[8vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
+                  <div className='w-[20vw] md:w-[7vw] h-[20vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[12vw] md:w-[5vw] h-[12vw] md:h-[5vw]' src={rea}/></div>
+                  <div className=' text-[8vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
+                  <div className='w-[20vw] md:w-[7vw] h-[20vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[12vw] md:w-[5vw] h-[12vw] md:h-[5vw]' src={cs}/></div>
+                  <div className=' text-[8vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
+                  <div className='w-[20vw] md:w-[7vw] h-[20vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[12vw] md:w-[5vw] h-[12vw] md:h-[5vw]' src={ht}/></div>
+                  <div className=' text-[8vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
+                  <div className='w-[20vw] md:w-[7vw] h-[20vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[12vw] md:w-[5vw] h-[12vw] md:h-[5vw]' src={boot}/></div>
+                  <div className=' text-[8vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
+                  <div className='w-[20vw] md:w-[7vw] h-[20vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[12vw] md:w-[5vw] h-[12vw] md:h-[5vw]' src={exp}/></div>
+                  <div className=' text-[8vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
+                  <div className='w-[20vw] md:w-[7vw] h-[20vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[12vw] md:w-[5vw] h-[12vw] md:h-[5vw]' src={py}/></div>
+                  <div className=' text-[8vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
+                  <div className='w-[20vw] md:w-[7vw] h-[20vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[12vw] md:w-[5vw] h-[12vw] md:h-[5vw]' src={tail}/></div>
+                  <div className=' text-[8vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
+                  <div className='w-[20vw] md:w-[7vw] h-[20vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[12vw] md:w-[5vw] h-[12vw] md:h-[5vw]' src={jss}/></div>
                 </Marquee>
               </div>
               <img className='absolute w-[23vw] md:w-[15vw] mt-[63vw] md:mt-[14vw]' src={img7}/>
