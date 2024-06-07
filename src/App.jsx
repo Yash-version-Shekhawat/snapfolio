@@ -153,7 +153,7 @@ function App() {
                   <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={jss}/></div>
                 </Marquee>
               </div>
-              <img className='absolute w-[23vw] md:w-[15vw] mt-[61vw] md:mt-[14vw]' src={img7}/>
+              <img className='absolute w-[23vw] md:w-[15vw] mt-[63vw] md:mt-[14vw]' src={img7}/>
               <img className='absolute w-[23vw] md:w-[15vw] ml-[73.1vw] md:ml-[82.5vw] mt-[70vw] md:mt-[20vw]' src={img9}/>
               <div className='flex -mt-[2vw] justify-center'>
                 <div className='flex flex-col items-center '>
@@ -162,7 +162,7 @@ function App() {
                   <img className='absolute mt-[19.5vw] md:mt-[11vw] w-[24vw] md:w-[13vw]' src={img8}/>
                 </div>
               </div>
-              <div className='w-[90%] bg-[#00000050] h-[48%] ml-[5vw] rounded-t-[4vw] md:rounded-t-[3vw] px-[2vw] mt-[15vw] md:mt-[0] '>
+              <div className='w-[90%] bg-[#00000050] h-[48%] ml-[5vw] rounded-t-[4vw] md:rounded-t-[3vw] px-[2vw] mt-[17vw] md:mt-[0] '>
                 <img className='w-[40vw] md:w-[15vw] mt-[5vw] md:mt-[1vw]' src={travel}/>    
                 <img className='my-[5vw] md:my-[1vw]' src={line_2} />
                 <img className='w-[40vw] md:w-[15vw] mt-[4vw] md:mt-[1vw]' src={travel}/>    
