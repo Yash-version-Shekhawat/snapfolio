@@ -1,9 +1,13 @@
 import { useState } from 'react'
+import Marquee from 'react-fast-marquee'
+import './App.css'
+{/*-----------Navbar-----------*/}
 import line1 from './assets/Line.svg'
 import img1 from './assets/img_1.svg'
 import img2 from './assets/img_2.svg'
 import img3 from './assets/img_3.svg'
 import logo from './assets/logo.svg'
+{/*-----------PAGE-1-----------*/}
 import line2 from './assets/line_1.svg'
 import link1 from './assets/link_1.svg'
 import link2 from './assets/link_2.svg'
@@ -11,6 +15,7 @@ import link3 from './assets/link_3.svg'
 import link4 from './assets/link_4.svg'
 import designer from './assets/Designer.svg'
 import developer from './assets/Developer.svg'
+{/*-----------PAGE-2-----------*/}
 import artist from './assets/Artist.svg'
 import foodie from './assets/Foodie.svg'
 import mini from './assets/Minimalist.svg'
@@ -19,6 +24,7 @@ import img5 from './assets/img_5.svg'
 import img6 from './assets/img_6.svg'
 import jour from './assets/journey.svg'
 import smart from './assets/smart.svg'
+ {/*-----------PAGE-3-----------*/}
 import cpp from './assets/cplusplus-colored.svg'
 import boot from './assets/bootstrap-colored.svg'
 import figma from './assets/figma-colored.svg'
@@ -31,8 +37,9 @@ import fram from './assets/framer-colored.svg'
 import jss from './assets/javascript-colored.svg'
 import rea from './assets/react-colored.svg'
 import tail from './assets/tailwindcss-colored.svg'
-import Marquee from 'react-fast-marquee'
-import './App.css'
+import img7 from './assets/img_7.svg'
+import img8 from './assets/img_8.svg'
+import img9 from './assets/img_9.svg'
 function App() {
   return (
     <div className='h-[100%] w-[100%] relative'>
@@ -140,19 +147,13 @@ function App() {
                   <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={py}/></div>
                   <div className=' text-[6vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
                   <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={tail}/></div>
+                  <div className=' text-[6vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
+                  <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={jss}/></div>
                 </Marquee>
               </div>
-              <h1>hi</h1>
-              <h1>hi</h1>
-              <h1>hi</h1>
-              <h1>hi</h1>
-              <h1>hi</h1>
-              <h1>hi</h1>
-              <h1>hi</h1>
-              <h1>hi</h1>
-              <h1>hi</h1>
-              <h1>hi</h1>
+              <div className='flex flex-row justify-between'><img className='w-[18vw] md:w-[15vw]' src={img7}/><div className='flex flex-col items-center'><h1 className='text-white text-[15vw] font-semibold mt-[4vw] md:mt-[0]'>WORK</h1><img className='absolute mt-[10vw] md:mt-[11vw] w-[15vw] md:w-[13vw]' src={img8}/></div><img className='w-[18vw] md:w-[15vw]' src={img9}/></div>
         </div>
+        
           
     </div>
   )
