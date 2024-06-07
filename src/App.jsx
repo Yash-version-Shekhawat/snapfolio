@@ -40,6 +40,8 @@ import tail from './assets/tailwindcss-colored.svg'
 import img7 from './assets/img_7.svg'
 import img8 from './assets/img_8.svg'
 import img9 from './assets/img_9.svg'
+import travel from './assets/travelit.svg'
+import line_2 from './assets/Line_2.svg' 
 function App() {
   return (
     <div className='h-[100%] w-[100%] relative'>
@@ -122,8 +124,8 @@ function App() {
         </div>
         {/*----------------------------------------------------PAGE-3-----------------------------------------------------------*/}
         <div className='PAGE_3 w-[100%] h-[100%] md:h-[65vw] flex flex-col  border-black border-8 bg-[#61329D] '>
-          <div className='w-[100%] h-[5vw] md:h-[3vw] bg-[#00000060] '><h1 className=' text-center text-[#fff] py-[1vw] text-[3vw] md:text-[1.2vw]'>TECHNOLOGIES USED :</h1></div>
-          <div className='w-[100%] flex justify-center h-[16vw] md:h-[10vw] bg-black md:py-[1vw] py-[1vw]'>
+          <div className='w-[100%] h-[8vw] md:h-[3vw] bg-[#00000060] '><h1 className=' text-center text-[#fff] py-[1vw] md:py-[1vw] text-[4vw] md:text-[1.2vw]'>TECHNOLOGIES USED :</h1></div>
+          <div className='w-[100%] flex justify-center h-[25vw] md:h-[10vw] bg-black md:py-[1vw] py-[1vw]'>
                 <Marquee>
                   <div className=' text-[6vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
                   <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={cpp}/></div>
@@ -151,18 +153,25 @@ function App() {
                   <div className='w-[11vw] md:w-[7vw] h-[11vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[9vw] md:w-[6vw] h-[9vw] md:h-[6vw]' src={jss}/></div>
                 </Marquee>
               </div>
-              <div className='flex flex-row bg-red-400 justify-between'>
-                <img className='w-[18vw] md:w-[15vw]' src={img7}/>
+              <div className='flex flex-row -mt-[2vw] justify-between'>
+                <img className='w-[16vw] md:w-[15vw]' src={img7}/>
                 <div className='flex flex-col items-center'>
-                  <h1 className='text-white text-[18vw] md:text-[15vw] font-semibold mt-[2vw] md:mt-[0]'>WORK
+                  <h1 className='text-white text-[20vw] md:text-[15vw] font-semibold mt-[2vw] md:mt-[0]'>WORK
                   </h1>
                   <img className='absolute mt-[15vw] md:mt-[11vw] w-[17vw] md:w-[13vw]' src={img8}/>
                 </div>
-                <img className='w-[18vw] md:w-[15vw]' src={img9}/>
+                <img className='w-[18vw] md:w-[15vw] -ml-[5.3vw] md:-ml-[0]' src={img9}/>
               </div>
-              <div className='w-[90%] bg-[#00000050] h-[60%] ml-[5vw]'>
-
-               </div> 
+              <div className='w-[90%] bg-[#00000050] h-[47%] ml-[5vw] rounded-t-[4vw] px-[2vw]'>
+                <img className='w-[35vw] md:w-[15vw] mt-[4vw] md:mt-[1vw]' src={travel}/>    
+                <img className='my-[3vw] md:my-[1vw]' src={line_2} />
+                <img className='w-[35vw] md:w-[15vw] mt-[4vw] md:mt-[1vw]' src={travel}/>    
+                <img className='my-[3vw] md:my-[1vw]' src={line_2} />
+                <img className='w-[35vw] md:w-[15vw] mt-[4vw] md:mt-[1vw]' src={travel}/>    
+                <img className='my-[3vw] md:my-[1vw]' src={line_2} />
+                <img className='w-[35vw] md:w-[15vw] my-[4vw] md:mt-[1vw] md:mb-[1vw]' src={travel}/>    
+                
+              </div> 
         </div>
         
           
