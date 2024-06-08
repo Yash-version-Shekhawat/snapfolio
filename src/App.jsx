@@ -142,7 +142,7 @@ function App() {
                   <div className=' text-[8vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
                   <div className='w-[20vw] md:w-[7vw] h-[20vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[12vw] md:w-[5vw] h-[12vw] md:h-[5vw]' src={cs}/></div>
                   <div className=' text-[8vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
-                  <div className='w-[20vw] md:w-[7vw] h-[20vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[12vw] md:w-[5vw] h-[12vw] md:h-[5vw]' src={ht}/></div>
+                  <div className='w-[20vw] md:w-[7vw] h-[20vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[12vw] md:w-[5vw] h-[12vw] md:h-[5vw] ml-[1vw] md:ml-[0.5vw]' src={ht}/></div>
                   <div className=' text-[8vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
                   <div className='w-[20vw] md:w-[7vw] h-[20vw] md:h-[7vw] bg-[#1E1E1E] mr-3 md:mr-5 rounded-xl flex justify-center items-center'><img className='w-[12vw] md:w-[5vw] h-[12vw] md:h-[5vw]' src={boot}/></div>
                   <div className=' text-[8vw] md:text-[3vw] font-sans font-bold text-[#1E1E1E] pr-3 md:pr-5 text-shadow-xl'>●</div>
@@ -156,7 +156,7 @@ function App() {
                 </Marquee>
               </div>
               <img className='absolute w-[23vw] md:w-[15vw] mt-[63vw] md:mt-[14vw]' src={img7}/>
-              <img className='absolute w-[23vw] md:w-[15vw] ml-[73.1vw] md:ml-[82.5vw] mt-[70vw] md:mt-[20vw]' src={img9}/>
+              <img className='absolute w-[23vw] md:w-[15vw] mt-[70vw] md:mt-[20vw] right-0 mr-2' src={img9}/>
               <div className='flex -mt-[2vw] justify-center'>
                 <div className='flex flex-col items-center '>
                   <h1 className='text-white text-[25vw] md:text-[15vw] font-semibold mt-[2vw] md:mt-[0]'>WORK
