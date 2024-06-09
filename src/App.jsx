@@ -172,11 +172,8 @@ function App() {
                 <img className='w-[40vw] md:w-[15vw] mt-[4vw] md:mt-[1vw]' src={travel}/>    
                 <img className='my-[5vw] md:my-[1vw]' src={line_2} />
                 <img className='w-[40vw] md:w-[15vw] my-[4vw] md:mt-[1vw] md:mb-[1vw]' src={travel}/>    
-                
               </div> 
-        </div>
-        
-          
+        </div>  
     </div>
   )
 }
