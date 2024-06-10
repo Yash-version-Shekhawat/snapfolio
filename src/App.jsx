@@ -57,8 +57,8 @@ function App() {
         </div>
         {/*----------------------------------------------------PAGE-1-----------------------------------------------------------*/}
         <div className='PAGE_1 w-[100%] md:h-[65vw] bg-[#bff960] flex flex-col justify-center items-center border-black border-8 overflow-hidden'>
-            <div className='md:w-[80%] w-[90%] flex md:mt-[150px] mt-[45px] flex-col text-[#1E1E1E] '>
-              <h1 className='md:text-[3vw] text-[10vw] md:pt-6 pt-10 font-semibold'>WELCOME TO MY</h1>
+            <div className='md:w-[80%] w-[90%] flex md:mt-[10vw] mt-[45px] flex-col text-[#1E1E1E] '>
+              <h1 className='md:text-[3vw] text-[10vw] md:pt-[10vw] pt-10 font-semibold'>WELCOME TO MY</h1>
               <div className='md:text-[3vw] text-[10vw] font-semibold'>
                 <img className='md:w-[19vw] w-[65vw] absolute md:mt-[2.1vw] mt-[7vw]' src={line1} alt="" />Portfolio
                 <img className='absolute md:w-[7vw] w-[18vw] md:-mt-[5.5vw] -mt-[16vw] md:ml-[19vw] ml-[65vw]' src={img1}/>
