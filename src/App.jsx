@@ -180,19 +180,36 @@ function App() {
         </div>  
         {/*----------------------------------------------------PAGE-4-----------------------------------------------------------*/}
         <div className='w-[100%] md:h-[65vw] bg-black  border-black border-8 '>
-          <div className='w-[100%] bg-[#C0111E] h-[40%] md:rounded-b-[3vw] flex flex-col'>
-            <img className='' src={line_3}/>
-            <div className='flex'>
-              <img className='' src={made}/>
-              <img className='' src={place}/>
+          <div className='w-[100%] bg-[#C0111E] h-[45%] md:rounded-b-[3vw] flex flex-col'>
+            <img className='mt-[4vw]' src={line_3}/>
+            <div className='flex md:mt-[12vw] md:gap-[4vw] md:pl-[4vw]'>
+              <div className='flex flex-col'>
+                <img className='md:w-[35vw]' src={made}/>
+                 <h1 className='ml-[13vw] text-[3.5vw] -mt-[2.5vw]'>2024</h1>
+              </div>
+              <div>
+                <img className='md:w-[50vw]' src={place}/>
+                <h1 className='ml-[13vw] text-[3.5vw] -mt-[2.5vw]'>Rajasthan, india</h1>
+              </div>
             </div>
-
           </div>
-
+          <div className='flex flex-col pl-[10vw] pt-[2.5vw]'>
+            <h1 className='text-[#FFFFFF34] text-[2vw]'>Connect :</h1>
+            <div className='flex gap-[5vw] mt-[1vw]'>
+            <button><h1 className='text-white text-[1.2vw]'>LINKED IN</h1></button>
+            <div className=' text-[8vw] md:text-[2vw] font-bold text-[#C0111E] md:-mt-[0.7vw] '>●</div>
+            <button><h1 className='text-white text-[1.2vw]'>Github</h1></button>
+            <div className=' text-[8vw] md:text-[2vw] font-bold text-[#C0111E] md:-mt-[0.7vw] '>●</div>
+            <button><h1 className='text-white text-[1.2vw]'>instagram</h1></button>
+            <div className=' text-[8vw] md:text-[2vw] font-bold text-[#C0111E] md:-mt-[0.7vw] '>●</div>
+            <button><h1 className='text-white text-[1.2vw]'>dribbble</h1></button>
+            <div className=' text-[8vw] md:text-[2vw] font-bold text-[#C0111E] md:-mt-[0.7vw] '>●</div>
+            <button><h1 className='text-white text-[1.2vw]'>behance</h1></button>
+            </div>
+          </div>
         </div>
     </div>
   )
 }
-
 export default App
 
