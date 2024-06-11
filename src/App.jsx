@@ -43,6 +43,10 @@ import img8 from './assets/img_8.svg'
 import img9 from './assets/img_9.svg'
 import travel from './assets/travelit.svg'
 import line_2 from './assets/Line_2.svg' 
+ {/*-----------PAGE-4-----------*/}
+ import line_3 from './assets/line_3.svg'
+ import made from './assets/made.svg'
+ import place from './assets/place.svg'
 function App() {
   return (
     <div className='h-[100%] w-[100%] relative'>
@@ -174,6 +178,18 @@ function App() {
                 <img className='w-[40vw] md:w-[15vw] my-[4vw] md:mt-[1vw] md:mb-[1vw]' src={travel}/>    
               </div> 
         </div>  
+        {/*----------------------------------------------------PAGE-4-----------------------------------------------------------*/}
+        <div className='w-[100%] md:h-[65vw] bg-black  border-black border-8 '>
+          <div className='w-[100%] bg-[#C0111E] h-[40%] md:rounded-b-[3vw] flex flex-col'>
+            <img className='' src={line_3}/>
+            <div className='flex'>
+              <img className='' src={made}/>
+              <img className='' src={place}/>
+            </div>
+
+          </div>
+
+        </div>
     </div>
   )
 }
