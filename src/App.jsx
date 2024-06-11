@@ -47,6 +47,7 @@ import line_2 from './assets/Line_2.svg'
  import line_3 from './assets/line_3.svg'
  import made from './assets/made.svg'
  import place from './assets/place.svg'
+ import place1 from './assets/place_1.svg'
 function App() {
   return (
     <div className='h-[100%] w-[100%] relative'>
@@ -179,17 +180,18 @@ function App() {
               </div> 
         </div>  
         {/*----------------------------------------------------PAGE-4-----------------------------------------------------------*/}
-        <div className='w-[100%] md:h-[65vw] bg-black  border-black border-8 '>
-          <div className='w-[100%] bg-[#C0111E] h-[45%] md:rounded-b-[3vw] flex flex-col'>
+        <div className='w-[100%] h-[100%] md:h-[65vw] bg-black  border-black border-8 '>
+          <div className='w-[100%] h-[70vw] bg-[#C0111E] md:h-[45%] rounded-b-[4vw] md:rounded-b-[3vw] flex flex-col'>
             <img className='mt-[4vw]' src={line_3}/>
-            <div className='flex md:mt-[12vw] md:gap-[4vw] md:pl-[4vw]'>
+            <div className='flex mt-[20vw] md:mt-[12vw] md:gap-[4vw] pl-[3vw] md:pl-[4vw] flex-col md:flex-row'>
               <div className='flex flex-col'>
-                <img className='md:w-[35vw]' src={made}/>
-                 <h1 className='ml-[13vw] text-[3.5vw] -mt-[2.5vw]'>2024</h1>
+                <img className='w-[90vw] md:w-[35vw]' src={made}/>
+                 <h1 className='ml-[35vw] md:ml-[13vw] text-[10vw] md:text-[3.5vw] -mt-[7vw] md:-mt-[2.5vw]'>2024</h1>
               </div>
               <div>
-                <img className='md:w-[50vw]' src={place}/>
-                <h1 className='ml-[13vw] text-[3.5vw] -mt-[2.5vw]'>Rajasthan, india</h1>
+                <img className='hidden md:block md:w-[50vw]' src={place}/>
+                <img className='w-[90vw] block md:hidden mt-[7vw] md:mt-[0]' src={place1}/>
+                <h1 className='ml-[35vw] md:ml-[13vw] text-[9vw] md:text-[3.5vw] -mt-[7vw] md:-mt-[2.5vw]'>india</h1>
               </div>
             </div>
           </div>
