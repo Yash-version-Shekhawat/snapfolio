@@ -195,20 +195,41 @@ function App() {
               </div>
             </div>
           </div>
-          <div className='flex flex-col pl-[10vw] pt-[2.5vw]'>
-            <h1 className='text-[#FFFFFF34] text-[2vw]'>Connect :</h1>
-            <div className='flex gap-[5vw] mt-[1vw]'>
-            <button><h1 className='text-white text-[1.2vw]'>LINKED IN</h1></button>
-            <div className=' text-[8vw] md:text-[2vw] font-bold text-[#C0111E] md:-mt-[0.7vw] '>●</div>
-            <button><h1 className='text-white text-[1.2vw]'>Github</h1></button>
-            <div className=' text-[8vw] md:text-[2vw] font-bold text-[#C0111E] md:-mt-[0.7vw] '>●</div>
-            <button><h1 className='text-white text-[1.2vw]'>instagram</h1></button>
-            <div className=' text-[8vw] md:text-[2vw] font-bold text-[#C0111E] md:-mt-[0.7vw] '>●</div>
-            <button><h1 className='text-white text-[1.2vw]'>dribbble</h1></button>
-            <div className=' text-[8vw] md:text-[2vw] font-bold text-[#C0111E] md:-mt-[0.7vw] '>●</div>
-            <button><h1 className='text-white text-[1.2vw]'>behance</h1></button>
+          <div className='flex flex-col pl-[3vw] md:pl-[10vw] pt-[2.5vw]'>
+            <h1 className='text-[#FFFFFF35] text-[6vw] md:text-[2vw]'>Connect :</h1>
+            <div className='flex md:gap-[5vw] mt-[1vw] md:flex-row flex-col items-center md:items-start'>
+            <button><h1 className='text-white md:text-[1.2vw] hover:text-[#C0111E]'>LINKED IN</h1></button>
+            <div className='md:block text-[6vw] md:text-[2vw] font-bold text-[#C0111E] md:-mt-[0.7vw] '>●</div>
+            <button><h1 className='text-white md:text-[1.2vw] hover:text-[#C0111E]'>Github</h1></button>
+            <div className='md:block text-[6vw] md:text-[2vw] font-bold text-[#C0111E] md:-mt-[0.7vw] '>●</div>
+            <button><h1 className='text-white md:text-[1.2vw] hover:text-[#C0111E]'>instagram</h1></button>
+            <div className='md:block text-[6vw] md:text-[2vw] font-bold text-[#C0111E] md:-mt-[0.7vw] '>●</div>
+            <button><h1 className='text-white md:text-[1.2vw] hover:text-[#C0111E]'>dribbble</h1></button>
+            <div className='md:block text-[6vw] md:text-[2vw] font-bold text-[#C0111E] md:-mt-[0.7vw] '>●</div>
+            <button><h1 className='text-white md:text-[1.2vw] hover:text-[#C0111E]'>behance</h1></button>
             </div>
           </div>
+          <div className='w-[100%] flex justify-center h-[25vw] md:h-[11vw] bg-black md:py-[1vw] py-[1vw] border-t-2 border-b-2 border-[#ffffff80] mt-[5vw] md:mt-[10vw]'>
+                <Marquee className='marq '>
+                  <div className='text-[#ffffff35] text-[10vw] md:text-[5vw] pr-[4vw]'>
+                    Lets 
+                  </div>
+                  <div className='text-[#ffffff35] text-[10vw] md:text-[5vw] pr-[4vw]'>
+                    make 
+                  </div>
+                  <div className='text-[#ffffff35] text-[10vw] md:text-[5vw] pr-[4vw]'>
+                    something 
+                  </div>
+                  <div className='text-[#ffffff35] text-[10vw] md:text-[5vw] pr-[4vw]'>
+                    together 
+                  </div>
+                  <button>
+                  <div className='text-[#ffffff] text-[10vw] md:text-[5vw] mr-[4vw] px-[4vw] py-[2vw] md:py-[0.5vw] bg-[#1E1E1E] rounded-xl flex text-center hover:bg-[#c0111e]'>
+                    E-MAIL 
+                  </div>
+                  </button>
+                </Marquee>
+              </div>
         </div>
     </div>
   )
