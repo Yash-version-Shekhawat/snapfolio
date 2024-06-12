@@ -195,7 +195,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className='flex flex-col pl-[3vw] md:pl-[10vw] pt-[2.5vw]'>
+          <div className='flex flex-col pl-[3vw] md:pl-[10vw] pt-[3.5vw] md:pt-[2.5vw]'>
             <h1 className='text-[#FFFFFF35] text-[6vw] md:text-[2vw]'>Connect :</h1>
             <div className='flex md:gap-[5vw] mt-[1vw] md:flex-row flex-col items-center md:items-start'>
             <button><h1 className='text-white md:text-[1.2vw] hover:text-[#C0111E]'>LINKED IN</h1></button>
@@ -209,7 +209,7 @@ function App() {
             <button><h1 className='text-white md:text-[1.2vw] hover:text-[#C0111E]'>behance</h1></button>
             </div>
           </div>
-          <div className='w-[100%] flex justify-center h-[25vw] md:h-[11vw] bg-black md:py-[1vw] py-[1vw] border-t-2 border-b-2 border-[#ffffff80] mt-[5vw] md:mt-[10vw]'>
+          <div className='w-[100%] flex justify-center h-[25vw] md:h-[11vw] bg-black md:py-[1vw] py-[1vw] border-t-2 border-b-2 border-[#ffffff80] mt-[8vw] md:mt-[10vw]'>
                 <Marquee className='marq '>
                   <div className='text-[#ffffff35] text-[10vw] md:text-[5vw] pr-[4vw]'>
                     Lets 
@@ -230,6 +230,14 @@ function App() {
                   </button>
                 </Marquee>
               </div>
+              <div className='px-[3vw] mt-[5vw]'>
+                  <div className='flex gap-[1vw]'>
+                    <h1 className='text-[2.5vw] text-[#ffffff80]'> Designed </h1>
+                    <h1 className='text-[2.5vw] text-[#ffffff80]'> by</h1>
+                    <h1 className='text-[2.5vw] text-[#ffffff80]'> yashv_s</h1>
+                  </div>
+                  <h1 className='text-[2.5vw] text-[#ffffff80]'>©2024</h1>
+                </div>
         </div>
     </div>
   )
