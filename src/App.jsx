@@ -191,7 +191,7 @@ function App() {
               <div>
                 <img className='hidden md:block md:w-[50vw]' src={place}/>
                 <img className='w-[90vw] block md:hidden mt-[7vw] md:mt-[0]' src={place1}/>
-                <h1 className='ml-[35vw] md:ml-[13vw] text-[9vw] md:text-[3.5vw] -mt-[7vw] md:-mt-[2.5vw]'>india</h1>
+                <h1 className='ml-[35vw] md:ml-[13vw] text-[9vw] md:text-[3.5vw] -mt-[7vw] md:-mt-[2.5vw] '>india</h1>
               </div>
             </div>
           </div>
@@ -230,13 +230,13 @@ function App() {
                   </button>
                 </Marquee>
               </div>
-              <div className='px-[3vw] mt-[5vw]'>
-                  <div className='flex gap-[1vw]'>
-                    <h1 className='text-[2.5vw] text-[#ffffff80]'> Designed </h1>
-                    <h1 className='text-[2.5vw] text-[#ffffff80]'> by</h1>
-                    <h1 className='text-[2.5vw] text-[#ffffff80]'> yashv_s</h1>
+              <div className='px-[3vw] mt-[5vw] md:mt-[2vw]'>
+                  <div className='flex gap-[1vw] md:gap-[0.5vw]'>
+                    <h1 className='text-[2.5vw] md:text-[1vw] text-[#ffffff80]'> Designed </h1>
+                    <h1 className='text-[2.5vw] md:text-[1vw] text-[#ffffff80]'> by</h1>
+                    <h1 className='text-[2.5vw] md:text-[1vw] text-[#ffffff80]'> yashv_s</h1>
                   </div>
-                  <h1 className='text-[2.5vw] text-[#ffffff80]'>©2024</h1>
+                  <h1 className='text-[2.5vw] md:text-[1vw] text-[#ffffff80]'>©2024</h1>
                 </div>
         </div>
     </div>
