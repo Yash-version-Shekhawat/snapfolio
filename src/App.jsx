@@ -209,7 +209,7 @@ function App() {
             <button><h1 className='text-white md:text-[1.2vw] hover:text-[#C0111E]'>behance</h1></button>
             </div>
           </div>
-          <div className='w-[100%] flex justify-center h-[25vw] md:h-[11vw] bg-black md:py-[1vw] py-[1vw] border-t-2 border-b-2 border-[#ffffff80] mt-[8vw] md:mt-[10vw]'>
+          <div className='w-[100%] flex justify-center h-[25vw] md:h-[11vw] bg-black md:py-[1vw] py-[1vw] border-t-2 border-b-2 border-[#ffffff80] mt-[6vw] md:mt-[10vw]'>
                 <Marquee className='marq '>
                   <div className='text-[#ffffff35] text-[10vw] md:text-[5vw] pr-[4vw]'>
                     Lets 
