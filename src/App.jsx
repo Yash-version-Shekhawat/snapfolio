@@ -62,7 +62,9 @@ function App() {
              <h1>RETRO</h1>
            </div>
         </div>
+
         {/*----------------------------------------------------PAGE-1-----------------------------------------------------------*/}
+        
         <div className='PAGE_1 w-[100%] md:h-[65vw] bg-[#bff960] flex flex-col justify-center items-center border-black border-8 overflow-hidden'>
             <div className='md:w-[80%] w-[90%] flex md:mt-[10vw] mt-[45px] flex-col text-[#1E1E1E] '>
               <h1 className='md:text-[3vw] text-[10vw] md:pt-[10vw] pt-10 font-semibold'>WELCOME TO MY</h1>
@@ -91,7 +93,9 @@ function App() {
               </div>
             </div>
         </div>
+
         {/*----------------------------------------------------PAGE-2-----------------------------------------------------------*/}
+
         <div className='PAGE_2 w-[100%] md:h-[65vw] flex md:flex-row flex-col  border-black border-8 '>
           <div className='w-[100%] md:h-[100%] md:w-[70%]  bg-[#1E1E1E] flex flex-col md:pt-[2vw] pt-[4vw] pl-[2vw] md:gap-[3vw] gap-[5vw]'>
             <div>
@@ -135,9 +139,10 @@ function App() {
             </div>
             <h1 className='text-[2vw] md:text-[1vw] mt-[2vw] md:mt-[2vw]' >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum ad qui perferendis aut veritatis ab iusto, repudiandae earum saepe libero dolorum temporibus harum quisquam nulla reprehenderit necessitatibus perspiciatis placeat quanxanj isni nnjsn ini nin si ns.loreLorem, ipsum dolor sit amet consectetur adipisicing elit. Eum ad qui perferendis aut veritatis ab iusto, repudiandae earum saepe libero dolorum temporibus harum quisquam nulla reprehenderit necessitatibus perspiciatis placeat quanxanj isni nnjsn ini nin si ns.lore</h1>
           </div>
-
         </div>
+
         {/*----------------------------------------------------PAGE-3-----------------------------------------------------------*/}
+
         <div className='PAGE_3 w-[100%] h-[100%] md:h-[65vw] flex flex-col  border-black border-8 bg-[#61329D] '>
           <div className='w-[100%] h-[10vw] md:h-[3vw] bg-[#00000060] '>
             <h1 className=' text-center text-[#fff] py-[2vw] md:py-[1vw] text-[4vw] md:text-[1.2vw]'>
@@ -192,7 +197,9 @@ function App() {
                 <img className='w-[40vw] md:w-[15vw] my-[4vw] md:mt-[1vw] md:mb-[1vw]' src={travel}/>    
               </div> 
         </div>  
+
         {/*----------------------------------------------------PAGE-4-----------------------------------------------------------*/}
+
         <div className='w-[100%] h-[100%] md:h-[65vw] bg-black  border-black border-8 '>
           <div className='w-[100%] h-[70vw] bg-[#C0111E] md:h-[45%] rounded-b-[4vw] md:rounded-b-[3vw] flex flex-col'>
             <img className='mt-[4vw]' src={line_3}/>
