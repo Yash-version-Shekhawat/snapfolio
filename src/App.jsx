@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import Marquee from 'react-fast-marquee'
 import './App.css'
+
 {/*-----------Navbar-----------*/}
 import line1 from './assets/Line.svg'
 import img1 from './assets/img_1.svg'
 import img2 from './assets/img_2.svg'
 import img3 from './assets/img_3.svg'
 import logo from './assets/logo.svg'
+
 {/*-----------PAGE-1-----------*/}
 import line2 from './assets/line_1.svg'
 import link1 from './assets/link_1.svg'
@@ -15,6 +17,7 @@ import link3 from './assets/link_3.svg'
 import link4 from './assets/link_4.svg'
 import designer from './assets/Designer.svg'
 import developer from './assets/Developer.svg'
+
 {/*-----------PAGE-2-----------*/}
 import artist from './assets/Artist.svg'
 import foodie from './assets/Foodie.svg'
@@ -25,6 +28,7 @@ import img6 from './assets/img_6.svg'
 import jour from './assets/journey.svg'
 import smart from './assets/smart.svg'
 import vsco from './assets/linking.png'
+
  {/*-----------PAGE-3-----------*/}
 import cpp from './assets/c-.png'
 import boot from './assets/bootstrap.png'
@@ -43,6 +47,7 @@ import img8 from './assets/img_8.svg'
 import img9 from './assets/img_9.svg'
 import travel from './assets/travelit.svg'
 import line_2 from './assets/Line_2.svg' 
+
  {/*-----------PAGE-4-----------*/}
  import line_3 from './assets/line_3.svg'
  import made from './assets/made.svg'
@@ -50,6 +55,7 @@ import line_2 from './assets/Line_2.svg'
  import place1 from './assets/place_1.svg'
  import img10 from './assets/img_10.svg'
  import img11 from './assets/img_11.svg'
+ 
 function App() {
   return (
     <div className='h-[100%] w-[100%] relative'>
@@ -64,7 +70,7 @@ function App() {
         </div>
 
         {/*----------------------------------------------------PAGE-1-----------------------------------------------------------*/}
-        
+
         <div className='PAGE_1 w-[100%] md:h-[65vw] bg-[#bff960] flex flex-col justify-center items-center border-black border-8 overflow-hidden'>
             <div className='md:w-[80%] w-[90%] flex md:mt-[10vw] mt-[45px] flex-col text-[#1E1E1E] '>
               <h1 className='md:text-[3vw] text-[10vw] md:pt-[10vw] pt-10 font-semibold'>WELCOME TO MY</h1>
