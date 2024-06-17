@@ -55,7 +55,6 @@ import line_2 from './assets/Line_2.svg'
  import place1 from './assets/place_1.svg'
  import img10 from './assets/img_10.svg'
  import img11 from './assets/img_11.svg'
-
 function App() {
   return (
     <div className='h-[100%] w-[100%] relative'>
