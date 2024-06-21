@@ -73,12 +73,14 @@ function App() {
             <div className='md:w-[80%] w-[90%] flex md:mt-[10vw] mt-[45px] flex-col text-[#1E1E1E] '>
               <h1 className='md:text-[3vw] text-[10vw] md:pt-[10vw] pt-10 font-semibold'>WELCOME TO MY</h1>
               <div className='md:text-[3vw] text-[10vw] font-semibold'>
-                <img className='md:w-[19vw] w-[65vw] absolute md:mt-[2.1vw] mt-[7vw]' src={line1} alt="" />Portfolio
+                <img className='md:w-[19vw] w-[65vw] absolute md:mt-[2.1vw] mt-[7vw]' src={line1} alt="" />
+                Portfolio
                 <img className='absolute md:w-[7vw] w-[18vw] md:-mt-[5.5vw] -mt-[16vw] md:ml-[19vw] ml-[65vw]' src={img1}/>
               </div>
               <h1 className=' text-center md:text-left md:text-[12vw] text-[15vw] -mt-[3vw] font-bold text-[#AF2E2E] -ml-[2.8vw] md:ml-0'>SNAP
-                <span className='text-[#1E1E1E] font-bold'>FOLIO 
-                <img className=' absolute md:w-[12vw] w-0 md:-mt-[16.5vw] -mt-[28.5vw] md:ml-[71.6vw] ml-[61.6vw]' src={img2}/>
+                <span className='text-[#1E1E1E] font-bold'>
+                  FOLIO 
+                  <img className=' absolute md:w-[12vw] w-0 md:-mt-[16.5vw] -mt-[28.5vw] md:ml-[71.6vw] ml-[61.6vw]' src={img2}/>
                 </span>
               </h1>
               <div className='flex md:flex-row flex-col-reverse'>
