@@ -1,6 +1,5 @@
 import Marquee from 'react-fast-marquee'
 import './App.css'
-
 {/*-----------Navbar-----------*/}
 import line1 from './assets/Line.svg'
 import img1 from './assets/img_1.svg'
