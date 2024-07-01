@@ -13,7 +13,6 @@ export default {
       fontFamily: {
         'sans': ['Montserrat Subrayada', 'sans-serif'],
       },
-      
     },
   },
   plugins: [],
