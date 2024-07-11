@@ -6,7 +6,6 @@ import img1 from './assets/img_1.svg'
 import img2 from './assets/img_2.svg'
 import img3 from './assets/img_3.svg'
 import logo from './assets/logo.svg'
-
 {/*-----------PAGE-1-----------*/}
 import line2 from './assets/line_1.svg'
 import link1 from './assets/link_1.svg'
