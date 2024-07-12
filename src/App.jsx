@@ -98,7 +98,6 @@ function App() {
             </div>
         </div>
         {/*----------------------------------------------------PAGE-2-----------------------------------------------------------*/}
-
         <div className='PAGE_2 w-[100%] md:h-[65vw] flex md:flex-row flex-col  border-black border-8 '>
           <div className='w-[100%] md:h-[100%] md:w-[70%]  bg-[#1E1E1E] flex flex-col md:pt-[2vw] pt-[4vw] pl-[2vw] md:gap-[3vw] gap-[5vw]'>
             <div>
