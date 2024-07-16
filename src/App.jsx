@@ -44,6 +44,7 @@ import img8 from './assets/img_8.svg'
 import img9 from './assets/img_9.svg'
 import travel from './assets/travelit.svg'
 import line_2 from './assets/Line_2.svg' 
+import bhoogol from './assets/bhoogol.svg'
 
  {/*-----------PAGE-4-----------*/}
  import line_3 from './assets/line_3.svg'
@@ -54,7 +55,7 @@ import line_2 from './assets/Line_2.svg'
  import img11 from './assets/img_11.svg'
 function App() {
   return (
-    <div className='h-[100%] w-[100%] relative'>
+    <div className='h-[100%] w-[100%] relative bg-black'>
         <div className=' NAVBAR flex justify-center z-999 absolute w-full pt-8 md:pt-11'>   
            <div className='navbar h-[50px] md:w-[80%] w-[90%] bg-[#1E1E1E] text-white flex items-center justify-center md:gap-[9vw] gap-[5vw] rounded-2xl px-2 py-1 md:text-[1.5vw] text-[3.2vw]'>
              <h1>INDEX</h1>
@@ -65,7 +66,7 @@ function App() {
            </div>
         </div>
         {/*----------------------------------------------------PAGE-1-----------------------------------------------------------*/}
-        <div className='PAGE_1 w-[100%] md:h-[65vw] bg-[#bff960] flex flex-col justify-center items-center border-black border-8 overflow-hidden'>
+        <div className='PAGE_1 w-[100%] md:h-[65vw] bg-[#bff960] flex flex-col justify-center items-center border-black border-8 overflow-hidden rounded-3xl'>
             <div className='md:w-[80%] w-[90%] flex md:mt-[10vw] mt-[45px] flex-col text-[#1E1E1E] '>
               <h1 className='md:text-[3vw] text-[10vw] md:pt-[10vw] pt-10 font-semibold'>WELCOME TO MY</h1>
               <div className='md:text-[3vw] text-[10vw] font-semibold'>
@@ -97,7 +98,7 @@ function App() {
         </div>
         {/*----------------------------------------------------PAGE-2-----------------------------------------------------------*/}
         <div className='PAGE_2 w-[100%] md:h-[65vw] flex md:flex-row flex-col  border-black border-8 '>
-          <div className='w-[100%] md:h-[100%] md:w-[70%]  bg-[#1E1E1E] flex flex-col md:pt-[2vw] pt-[4vw] pl-[2vw] md:gap-[3vw] gap-[5vw]'>
+          <div className='w-[100%] md:h-[100%] md:w-[70%]  bg-[#1E1E1E] flex flex-col md:pt-[2vw] pt-[4vw] pl-[2vw] md:gap-[3vw] gap-[5vw] rounded-3xl'>
             <div>
               <img className='md:w-[30vw] w-[70vw]' src={mini}/>
             </div>
@@ -117,7 +118,7 @@ function App() {
               </button>
             </div>
             <div>
-              <img className=' w-[29vw] md:w-[15vw] md:-mt-[0.5vw]' src={jour}/>
+              <img className=' w-[35vw] md:w-[15vw] md:-mt-[0.5vw]' src={jour}/>
             </div>
             <div className='main flex items-center justify-center w-[100%] h-[60vw] md:h-[50%] mb-[10vw] md:mt-[2.5vw] overflow-x-hidden'>
               <div className='pacman relative bg-transparent z-[1] ml-[2vw]'>
@@ -129,7 +130,7 @@ function App() {
               <div className="path"></div>
             </div>    
           </div>
-          <div className='w-[100%] md:w-[30%] h-[40vw] md:h-[100%] bg-[#E9E757] flex md:flex-col px-[2vw] pt-[2vw] md:items-center'>
+          <div className='w-[100%] md:w-[30%] h-[40vw] md:h-[100%] bg-[#E9E757] flex md:flex-col px-[2vw] pt-[2vw] md:items-center rounded-3xl'>
             <div className='flex flex-col items-center mr-[2vw] md:mr-[0] '>
               <img className='w-[30vw] h-[20vw] md:h-[18vw] md:w-[20vw] float-left ' src={smart}/>
               <h1 className='text-[2.3vw] md:text-[1.5vw] text-center'>YASHVARDHAN SHEKHAWAT</h1>
@@ -143,7 +144,7 @@ function App() {
 
         {/*----------------------------------------------------PAGE-3-----------------------------------------------------------*/}
 
-        <div className='PAGE_3 w-[100%] h-[100%] md:h-[65vw] flex flex-col  border-black border-8 bg-[#61329D] '>
+        <div className='PAGE_3 w-[100%] h-[100%] md:h-[65vw] flex flex-col border-black border-8 bg-[#61329D] rounded-3xl '>
           <div className='w-[100%] h-[10vw] md:h-[3vw] bg-[#00000060] '>
             <h1 className=' text-center text-[#fff] py-[2vw] md:py-[1vw] text-[4vw] md:text-[1.2vw]'>
               TECHNOLOGIES USED :
@@ -190,8 +191,8 @@ function App() {
               <div className='w-[90%] bg-[#00000050] h-[48%] ml-[5vw] rounded-t-[4vw] md:rounded-t-[3vw] px-[2vw] mt-[17vw] md:mt-[0] '>
                 <img className='w-[40vw] md:w-[15vw] mt-[5vw] md:mt-[1vw]' src={travel}/>    
                 <img className='my-[5vw] md:my-[1vw]' src={line_2} />
-                <img className='w-[40vw] md:w-[15vw] mt-[4vw] md:mt-[1vw]' src={travel}/>    
-                <img className='my-[5vw] md:my-[1vw]' src={line_2} />
+                <img className='w-[40vw] md:w-[23vw] mt-[4vw] md:mt-[2vw]' src={bhoogol}/>    
+                <img className='my-[5vw] md:my-[2vw]' src={line_2} />
                 <img className='w-[40vw] md:w-[15vw] mt-[4vw] md:mt-[1vw]' src={travel}/>    
                 <img className='my-[5vw] md:my-[1vw]' src={line_2} />
                 <img className='w-[40vw] md:w-[15vw] my-[4vw] md:mt-[1vw] md:mb-[1vw]' src={travel}/>    
@@ -200,7 +201,7 @@ function App() {
 
         {/*----------------------------------------------------PAGE-4-----------------------------------------------------------*/}
 
-        <div className='w-[100%] h-[100%] md:h-[65vw] bg-black  border-black border-8 '>
+        <div className='w-[100%] h-[100%] md:h-[65vw] bg-black  border-black border-8'>
           <div className='w-[100%] h-[70vw] bg-[#C0111E] md:h-[45%] rounded-b-[4vw] md:rounded-b-[3vw] flex flex-col'>
             <img className='mt-[4vw]' src={line_3}/>
             <img className='absolute flex right-0 -mt-[0.5vw] md:mt-[1.7vw] w-[34vw] md:w-[20vw] mr-[5vw]' src={img10}/>
